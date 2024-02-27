@@ -2,6 +2,7 @@ operation = input('''
 Please type what would you like to do:
 + for addition
 - for substraction
+* for multiplication
 ''')
 
 number_1 = float(input('Enter your first number'))
@@ -12,3 +13,6 @@ if operation == '+':
 
 elif operation == '-':
     print(number_1 - number_2)
+
+elif operation == '*':
+    print(number_1 * number_2)
