@@ -3,6 +3,7 @@ Please type what would you like to do:
 + for addition
 - for substraction
 * for multiplication
+/ for division
 ''')
 
 number_1 = float(input('Enter your first number'))
@@ -16,3 +17,5 @@ elif operation == '-':
 
 elif operation == '*':
     print(number_1 * number_2)
+elif operation == '/':
+    print(number_1 / number_2)
